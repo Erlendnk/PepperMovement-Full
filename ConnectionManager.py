@@ -46,7 +46,6 @@ class ConnectionManager(object):
         check1.grid(row=10, column=0, columnspan=4, sticky=W)
         check2.grid(row=11, column=0, columnspan=4, sticky=W)
 
-
         Label(self.connection_window, text="  ", bg=self.backgroundColor).grid(row=0, column=0)
         Label(self.connection_window, text="  ", bg=self.backgroundColor).grid(row=1, column=0)
         Label(self.connection_window, text="  ",bg=self.backgroundColor).grid(row=1, column=1)
